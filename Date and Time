@@ -1,0 +1,8 @@
+import datetime   #basic library to import date and time in python
+now = datetime.datetime.now()   #this command will print date amd time
+str = "now"                     #repacing now word with present
+print str.replace(str, "present") #python function to perform replacement
+print(now)                        #When you run this command in command line, you will see now is replaced by present
+print now.year                     #printing the year
+print now.month                    #printing the month
+print now.second                   #printing the time interval in seconds
